@@ -1,0 +1,80 @@
+body{
+    background-color:orange;
+    font-family: "Arial";
+    }
+
+div{
+
+    padding:20px;
+
+    }
+
+p,li,h1{
+    color:green; //Changes font color of all three elements to green
+    }
+
+div li{
+    color:blue;
+    padding:20px;
+    }
+
+ul > li{
+
+    color:black;
+    /* do something */
+    }
+
+#controls{
+    color: black;
+    /* properties and values go here */
+    }
+
+#sawtooth{
+    background-color: #336E91;
+    }
+    #sine{
+    background-color: #783d47;
+    }
+    #triangle{
+    background-color: #3b3040;
+    }
+    #square{
+    background-color:    #b85635;
+    }
+
+.osc-controls{ /* Notice the dot selector */
+    /* set property values */
+    border-style:solid;
+    border-color: #BC6527;
+    border-width: 2px;
+    border-radius:10px;
+    border-style:solid;
+    border-color: #BC6527;
+    border-width: 2px;
+    border-radius:10px;
+    margin-bottom:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+#oscillator-list li{ /* Descendent selector */
+    list-style-type: none;
+    color:white;
+    }
+
+#oscillator-list{
+    padding-left:0px;
+    }
+
+p,span,li,input{
+    font-size:1.5em;
+    }
+
+.application{
+    width:550px;
+    margin:0 auto;
+    }
+
+.selected-waveform{
+    outline:2px solid white;
+    }
